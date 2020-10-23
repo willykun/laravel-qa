@@ -12,11 +12,14 @@
         "doctrine/dbal": "^2.10",
         "erusev/parsedown": "^1.7",
         "fideloper/proxy": "^4.0",
+        "laminas/laminas-diactoros": "^2.4",
         "laravel/framework": "^6.2",
-        "laravel/passport": "7.5.1",
         "laravel/helpers": "^1.2",
+        "laravel/passport": "^9.3",
         "laravel/tinker": "^2.0",
-        "mews/purifier": "^3.2"
+        "mews/purifier": "^3.2",
+        "php-parallel-lint/php-console-color": "^0.3.0",
+        "php-parallel-lint/php-console-highlighter": "^0.5.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.3",
