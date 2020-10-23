@@ -80,6 +80,10 @@
             'signedIn'  => Auth::check(),
             'user' => Auth::user()
         ]) !!}
+        window.Urls = @json([
+            'api' => url('/api'),
+            'login' => route('login')
+        ])
     </script>
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
